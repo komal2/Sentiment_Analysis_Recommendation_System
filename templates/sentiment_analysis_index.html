@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>
+            Recommendation System
+        </title>
+        <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    </head>
+    <body>
+        <div class = 'outercontainer'>
+            <div class="center">
+                <h1 id="titlestyle" >
+                    Sentiment Based Product Recommendation System
+                </h1>
+            </div>
+            <div class="conversationcontainer" id="chatcontainer">
+                {% for entry in name %}
+                <div class="{% if entry.bot %}bot{% else %}user{% endif %}"> 
+                    {% if entry.bot %}
+                    {{ entry.bot }}
+                    {% else %}
+                    {{ entry.user }}
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+            <form action="/recommend" method="POST" class="center">
+                <input type="text" name="user_input_message" id="inputtextbox">
+                <div style="vertical-align: middle;">
+                    <button type="submit"> Get Recommendations </button>
+                </div>                
+            </form>
+            <form action="/list_users" method="POST" class="center">
+                <button type="submit"> List Users </button>
+            </form>
+            <form action="/end_conv" method="POST" class="center">
+                <button type="submit"> End Conversation </button>
+            </form>
+        </div>
+        <script>
+            // Scroll to the bottom of the chat container on page load and after a new message is sent
+            function scrollToBottom() {
+                var chatContainer = document.getElementById('chatcontainer');
+                chatContainer.scrollTop = chatContainer.scrollHeight;
+            }
+            window.onload = scrollToBottom;
+        </script>
+    </body>
+</html> 
