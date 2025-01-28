@@ -15,8 +15,8 @@ Below steps are to be performed .
    5.2. Random forest \
    5.3. XGBoost \
    5.4. Naive Bayes
-6. Building a recommendation system
-   6.1. User-based recommendation system
+6. Building a recommendation system \
+   6.1. User-based recommendation system \
    6.2. Item-based recommendation system
 7. Recommendation of Top 20 products to a specified user
 8. Fine Tuning & Recommending Top 5 products
