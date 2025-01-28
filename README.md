@@ -10,10 +10,10 @@ Below steps are to be performed .
 2. Data cleaning
 3. Text preprocessing
 4. Feature extraction
-5. Model Building
-   5.1. Logistic regression
-   5.2. Random forest
-   5.3. XGBoost
+5. Model Building \
+   5.1. Logistic regression \
+   5.2. Random forest \
+   5.3. XGBoost \
    5.4. Naive Bayes
 6. Building a recommendation system
    6.1. User-based recommendation system
