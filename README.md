@@ -23,7 +23,7 @@ Below steps are to be performed .
 9. Deployment of this end to end project with a user interface (Flask).
 
 **In Heroku Application** 
-It is also deployed in Paas - Heroku to make the web application public - https://prodrecommendationsystem-app-30fd3a74510f.herokuapp.com/
+It is also deployed in Paas - render to make the web application public - [https://prodrecommendationsystem-app-30fd3a74510f.herokuapp.com/](https://sentiment-analysis-recommendation-system.onrender.com/)
 
 **In Flask Deployment - Local**
 If the same application to be checked in Flask local, below are the steps -
