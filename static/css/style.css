@@ -1,7 +1,7 @@
 button {
     /* These styles are applied to all buttons */
     color: white; /* Color of the button text */
-    background-color: rgb(85, 85, 85); /* Darker background color for better contrast */
+    background-color: rgb(100, 100, 100); /* Darker background color for better contrast */
     border: 2px solid #444; /* Slightly lighter border color to create a subtle edge */
     padding: 12px; /* Slightly increased padding for better usability */
     width: 220px; /* Slightly wider for improved appearance */
@@ -79,7 +79,7 @@ button:focus {
 .user {
     /* These styles apply to divs with class "user", i.e., user messages */
     color: white; /* Color of the user's text */
-    background-color: rgb(0, 195, 255); /* Background color of the user's messages */
+    background-color: rgb(0, 255, 150); /* Background color of the user's messages */
     padding: 8px; /* Space between the user's text and the edge of its container */
     border-radius: 10px; /* Rounds the corners of the user's messages */
     float: right; /* Floats the user's messages to the right */
@@ -91,7 +91,7 @@ button:focus {
 .bot { 
     /* Same as above, but for the bot's messages */
     color: white;
-    background-color: rgb(0, 128, 90);
+    background-color: rgb(0, 80, 120);
     padding: 8px;
     border-radius: 10px;
     float: left;
