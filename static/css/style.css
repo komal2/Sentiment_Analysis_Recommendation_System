@@ -1,7 +1,7 @@
 button {
     /* These styles are applied to all buttons */
-    color: white; /* Color of the button text */
-    background-color: rgb(100, 100, 100); /* Darker background color for better contrast */
+    color: black; /* Color of the button text */
+    background-color: rgb(00, 90, 180); /* Darker background color for better contrast */
     border: 2px solid #444; /* Slightly lighter border color to create a subtle edge */
     padding: 12px; /* Slightly increased padding for better usability */
     width: 220px; /* Slightly wider for improved appearance */
@@ -17,7 +17,7 @@ button {
 
 /* Hover Effect */
 button:hover {
-    background-color: rgb(120, 120, 120); /* Lighter background color on hover */
+    background-color: rgb(70, 120, 150); /* Lighter background color on hover */
     transform: translateY(-3px); /* Slight upward movement for interaction feedback */
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
 }
